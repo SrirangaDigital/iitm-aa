@@ -4,7 +4,7 @@
             <div class="row"><!-- row -->
                 <div class="col-lg-12">
                     <p class="copy-text text-center">
-                        © 2016 Indian Academy of Sciences, Bengaluru.
+                        © 2017 Indian Institute of Technology Madras.
                     </p>
                 </div>
             </div><!-- row end -->

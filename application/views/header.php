@@ -15,16 +15,15 @@
     <!-- FONT
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" id="royal_enqueue_Lato-css" href="https://fonts.googleapis.com/css?family=Lato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900&amp;ver=1.0.0" type="text/css" media="all">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400italic,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400italic,400,600,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,400,300,600" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
     <!-- Javascript calls
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="<?=PUBLIC_URL?>js/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="<?=PUBLIC_URL?>js/lightbox.js"></script>
-        <script type="text/javascript" src="<?=PUBLIC_URL?>js/viewer.js"></script>
  
     <!-- CSS
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -53,7 +52,7 @@
 <?php echo file_get_contents( BASE_URL . 'vendor/analyticstracking.php' ); ?>
     <!-- Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <nav class="navbar navbar-default navbar-fixed-top wider">
+    <nav class="navbar navbar-default wider">
         <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -66,21 +65,10 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-primary-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="<?=BASE_URL?>#home">Home</a></li>
-                    <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>page/flat/About">About</a></li>
-                    <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>#speakers">Speakers</a></li>
-                    <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>page/flat/Schedule">Schedule</a></li>                    
-                    <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>Gallery">Gallery</a></li>
-                    <li><a href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle logo"></a></li>
-                    <li><a href="<?=BASE_URL?>#information">Info for Participants</a></li>
-                    <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>Information/Downloads">Downloads</a></li>
-                    <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>Information/Contact">Contact Us</a></li>
+                    <li>
+                        <a href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="Logo of the Indian Academy of Sciences" class="img-circle logo"></a>
+                        <span class="heading">Distinguished Alumnus Awardees</span>
+                    </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
