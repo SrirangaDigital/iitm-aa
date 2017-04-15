@@ -35,7 +35,7 @@ class viewHelper extends View {
     
     public function includeThumbnail($name = '',$year_awarded='') {
 
-        return FLAT_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg"; ;        
+        return FLAT_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg";
 
     }
 
