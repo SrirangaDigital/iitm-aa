@@ -33,13 +33,10 @@ class viewHelper extends View {
         return preg_replace('/^(.*)__/', '', $combinedID);
     }
     
-    public function includeRandomThumbnail($id = '') {
+    public function includeThumbnail($name = '',$year_awarded='') {
 
-        $photos = glob(PHY_PHOTO_URL . $id . '/thumbs/*.JPG');
-        $randNum = rand(0, sizeof($photos) - 1);
-        $photoSelected = $photos[$randNum];
+        return FLAT_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg"; ;        
 
-        return str_replace(PHY_PHOTO_URL, PHOTO_URL, $photoSelected);
     }
 
     public function displayFieldData($json, $auxJson='') {

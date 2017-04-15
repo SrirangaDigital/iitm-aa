@@ -45,35 +45,80 @@ $(document).ready(function() {
         $("html, body").animate({scrollTop: jumpLoc}, 100);
     });
 
-  var vieweroptions = {
-        // inline: true,
-        url: 'data-original',
-        ready:  function (e) {
-          console.log(e.type);
-        },
-        show:  function (e) {
-          console.log(e.type);
-        },
-        shown:  function (e) {
-          console.log(e.type);
-        },
-        hide:  function (e) {
-          console.log(e.type);
-        },
-        hidden:  function (e) {
-          console.log(e.type);
-        },
-        view:  function (e) {
-          console.log(e.type, e.detail.index);
-        },
-        viewed:  function (e) {
-          console.log(e.type, e.detail.index);
-          // this.viewer.zoomTo(1).rotateTo(180);
-        }
-      };
-
-    var viewer = new Viewer(document.getElementById('viewimages'),vieweroptions);
-
 });
+
+
+// Masonry layout
+
+jQuery(window).load(function () {
+
+
+
+    // Takes the gutter width from the bottom margin of .post
+
+    var gutter = parseInt(jQuery('.post').css('marginBottom'));
+    var container = jQuery('#posts');
+
+
+
+    // Creates an instance of Masonry on #posts
+
+    container.masonry({
+        gutter: gutter,
+        itemSelector: '.post',
+        columnWidth: '.post',
+        transitionDuration: 0,
+        fitWidth: true
+    });
+    
+    // This code fires every time a user resizes the screen and only affects .post elements
+    // whose parent class isn't .container. Triggers resize first so nothing looks weird.
+    
+    jQuery(window).bind('resize', buildMasonry()).trigger('resize');
+    
+});
+
+function buildMasonry(){
+
+    var gutter = parseInt(jQuery('.post').css('marginBottom'));
+    var container = jQuery('#posts');
+
+
+    // Creates an instance of Masonry on #posts
+
+    container.masonry({
+        gutter: gutter,
+        itemSelector: '.post',
+        columnWidth: '.post',
+        transitionDuration: 0,
+        fitWidth: true
+    });
+
+    if (!jQuery('#posts').parent().hasClass('container')) {
+    
+        // Resets all widths to 'auto' to sterilize calculations
+        
+        post_width = jQuery('.post').width() + gutter;
+        jQuery('#posts, body > #grid').css('width', 'auto');
+        
+        // Calculates how many .post elements will actually fit per row. Could this code be cleaner?
+        
+        posts_per_row = jQuery('#posts').innerWidth() / post_width;
+
+        floor_posts_width = (Math.floor(posts_per_row) * post_width) - gutter;
+        ceil_posts_width = (Math.ceil(posts_per_row) * post_width) - gutter;
+        posts_width = (ceil_posts_width > jQuery('#posts').innerWidth()) ? floor_posts_width : ceil_posts_width;
+        if (posts_width == jQuery('.post').width()) {
+            posts_width = '100%';
+        }
+        
+
+        
+        // Ensures that all top-level elements have equal width and stay centered
+        
+        jQuery('#posts, #grid').css('width', '1325px');
+        // jQuery('#posts').css({'margin-left': '-20px'});  
+    }
+}
 
 

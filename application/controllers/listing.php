@@ -10,19 +10,18 @@ class listing extends Controller {
 
 	public function index() {
 
-		$this->albums();
 	}
 
-	public function albums() {
+	public function byyear() {
 
-		$data = $this->model->listAlbums();
-		($data) ? $this->view('listing/albums', $data) : $this->view('error/index');
+		$data = $this->model->listYears();
+		($data) ? $this->view('listing/years', $data) : $this->view('error/index');
 	}
 
-	public function photos($album = DEFAULT_ALBUM) {
+	public function awardees($year_awarded = '') {
 
-		$data = $this->model->listPhotos($album);
-		($data) ? $this->view('listing/photos', $data) : $this->view('error/index');
+		$data = $this->model->listAwardeesInYear($year_awarded);
+		($data) ? $this->view('listing/awardeesinyear', $data) : $this->view('error/index');
 	}
 }
 

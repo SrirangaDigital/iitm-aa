@@ -701,7 +701,7 @@ button.toggle-button{
 }
 .intro{
   width: 80%;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 32px;
   margin: 50px 0 0px 20px;
 }
@@ -820,6 +820,7 @@ button.toggle-button{
 }
 .main .affiliation{
   font-size: 16px;
+  color: #C0504D;
   font-weight: 300;
   line-height: 24px;
   margin-bottom: 30px;
@@ -879,4 +880,33 @@ button.toggle-button{
  .presentation{
   float: right;
   font-size: 0.8em;
+ }
+ .heading{
+ font-family: 'Great Vibes', cursive;
+ font-size: 3em; 
+ }
+ .gap-above-more{
+  margin-top: 7em;
+ }
+ .year-holder{
+  padding: 15px !important;
+ }
+ .year-btn{
+  font-family: "Lato";
+  font-weight: 100;
+  font-size: 45px;
+  color: #FFF;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  background-color: #1565C0;
+  padding: 50px 0px;
+  border-radius: 3px;
+  line-height: 45px;
+ }
+
+ a.year-btn:hover{
+  color: #FFF;
+  background-color: #1976D2;
+  transition: all 0.3s;
  }
