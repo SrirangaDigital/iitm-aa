@@ -20,36 +20,16 @@ class data extends Controller {
 		$this->model->db->dropTable(METADATA_TABLE_L1, $dbh);
 		$this->model->db->createTable(METADATA_TABLE_L1, $dbh, METADATA_TABLE_L1_SCHEMA);
 
-		$this->model->db->dropTable(METADATA_TABLE_L2, $dbh);
-		$this->model->db->createTable(METADATA_TABLE_L2, $dbh, METADATA_TABLE_L2_SCHEMA);
-
-		$this->model->db->createTable(METADATA_TABLE_L3, $dbh, METADATA_TABLE_L3_SCHEMA);
-		$this->model->db->createTable(METADATA_TABLE_L4, $dbh, METADATA_TABLE_L4_SCHEMA);
 		
-		//List albums
-		$albums = $this->model->listFiles(PHY_PHOTO_URL, 'json');
-		if($albums) {
+		$awardees = $this->model->getAwardeesFromXML();
 
-			$this->model->insertAlbums($albums, $dbh);
+		if($awardees) {
 
-			foreach ($albums as $album) {
-			
-				// List photos
-				$photos = $this->model->listFiles(str_replace('.json', '/', $album), 'json');
-			
-				if($photos) {
-
-					$this->model->insertPhotos($photos, $dbh);
-				}
-				else{
-
-					echo 'Album ' . $album . ' does not have any photos' . "\n";
-				}
-			}
+			$this->model->insertAwardees($awardees, $dbh);
 		}
 		else{
 
-			echo 'No albums to insert';
+			echo 'No awardee to insert';
 		}
 
 		$dbh = null;
