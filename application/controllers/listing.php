@@ -17,6 +17,12 @@ class listing extends Controller {
 		$data = $this->model->listYears();
 		($data) ? $this->view('listing/years', $data) : $this->view('error/index');
 	}
+	
+	public function byname() {
+
+		$data = $this->model->listNames();
+		($data) ? $this->view('listing/names', $data) : $this->view('error/index');
+	}
 
 	public function awardees($year_awarded = '') {
 
