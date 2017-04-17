@@ -700,12 +700,15 @@ button.toggle-button{
   margin: 20px 0;
 }
 .intro{
-  width: 80%;
-  font-size: 20px;
+  width: 65%;
+  font-size: 18px;
   line-height: 32px;
-  margin: 50px 0 0px 20px;
+  margin: 50px auto 0 auto;
+  text-align: center;
 }
-
+.intro p{
+  margin-bottom: 30px;
+}
 /*side lines*/
 .fancy {
     font-size: 24px;
@@ -916,6 +919,25 @@ button.toggle-button{
  }
 
  a.year-btn:hover{
+  color: #FFF;
+  background-color: #1976D2;
+  transition: all 0.3s;
+ }
+.selection-btn{
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 28px;
+  color: #FFF;
+  text-align: center;
+  display: inline-block;
+  background-color: #1565C0;
+  padding: 15px 30px;
+  margin: 0 20px;
+  border-radius: 3px;
+  line-height: 45px;
+ }
+
+ a.selection-btn:hover{
   color: #FFF;
   background-color: #1976D2;
   transition: all 0.3s;
