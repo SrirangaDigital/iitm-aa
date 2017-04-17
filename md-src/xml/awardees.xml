@@ -252,7 +252,7 @@
 		<rollno>74/73</rollno>
 		<batch_details>1978/BT/CE</batch_details>
 		<year_awarded>2004</year_awarded>
-		<info>CEO and Head R&D @ Saint Gobain India, Chennai</info>
+		<info>CEO and Head R&amp;D @ Saint Gobain India, Chennai</info>
 	</person>
 	<person>
 		<name sal="Dr.">Ashok Khanna</name>
@@ -490,7 +490,7 @@
 		<rollno>MT/E/7/70</rollno>
 		<batch_details>1972/MT/EE</batch_details>
 		<year_awarded>2009</year_awarded>
-		<info>Chairman & Managing Director @ Bharat Heavy Electricals Ltd</info>
+		<info>Chairman &amp; Managing Director @ Bharat Heavy Electricals Ltd</info>
 	</person>
 	<person>
 		<name sal="Mr.">G. Parameswaran</name>
