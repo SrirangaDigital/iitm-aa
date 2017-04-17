@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', 'http://192.168.1.21/iitm-aa/');
+define('BASE_URL', 'http://localhost/iitm-aa/');
 define('PUBLIC_URL', BASE_URL . 'public/');
 define('XML_SRC_URL', BASE_URL . 'md-src/xml/');
 define('PHOTO_URL', PUBLIC_URL . 'Awardees/');

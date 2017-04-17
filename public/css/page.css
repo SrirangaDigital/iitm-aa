@@ -747,7 +747,6 @@ button.toggle-button{
   font-weight: 300;
   line-height: 50px;
   border-bottom: 1px solid #e5ae47;
-  margin-bottom: 30px;
 }
 .main .schedule .nav{
   margin-top: 40px;
@@ -787,7 +786,15 @@ button.toggle-button{
  font-weight: 400;
   font-size: 16px;
 }
-.main h2, .main .schedule-text h3{
+.main h2{
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 30px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.main .schedule-text h3{
   font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 22px;
   font-weight: 300;
