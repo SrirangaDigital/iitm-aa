@@ -9,7 +9,6 @@ class data extends Controller {
 
 	public function index() {
 
-		$this->insertPhotoDetails();
 	}
 
 	public function insertDetails(){
