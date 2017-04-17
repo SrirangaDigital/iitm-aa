@@ -4,7 +4,7 @@ define('DB_SCHEMA', 'CREATE DATABASE IF NOT EXISTS :db CHARACTER SET utf8 COLLAT
 
 define('METADATA_TABLE_L1_SCHEMA', 'CREATE TABLE `' . METADATA_TABLE_L1 . '` (
   `name` varchar(500) NOT NULL,
-  `sal` varchar(50) DEFAULT NULL,
+  `sal` varchar(100) DEFAULT NULL,
   `rollno` varchar(50) DEFAULT NULL,
   `batch_details` varchar(500) DEFAULT NULL,
   `year_awarded` int(10) DEFAULT NULL,
