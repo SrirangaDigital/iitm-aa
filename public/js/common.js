@@ -1,23 +1,25 @@
 $(document).ready(function() {
 
-    var isWider = $( '.wider' );
-    isWider.next( '.container' ).addClass( 'push-down' );
+    // isWider class disabled
 
-    if(isWider.length) {
-        $( window ).scroll(function() {
+    // var isWider = $( '.wider' );
+    // isWider.next( '.container' ).addClass( 'push-down' );
 
-            var tp = $( 'body' ).scrollTop();
+    // if(isWider.length) {
+    //     $( window ).scroll(function() {
 
-            if(tp > 50) {
+    //         var tp = $( 'body' ).scrollTop();
 
-                $( '.navbar' ).removeClass( 'wider') ;
-            }
-            else if(tp < 50) {
+    //         if(tp > 50) {
+
+    //             $( '.navbar' ).removeClass( 'wider') ;
+    //         }
+    //         else if(tp < 50) {
         
-                $( '.navbar' ).addClass( 'wider') ;
-            }
-        }); 
-    }
+    //             $( '.navbar' ).addClass( 'wider') ;
+    //         }
+    //     }); 
+    // }
     
     var hloc = window.location.href;
     if(hloc.match('#')){

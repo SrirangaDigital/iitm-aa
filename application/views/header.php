@@ -73,5 +73,18 @@
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline sub-nav">
+                    <li><a href="<?=BASE_URL?>">HOME</a></li>
+                    <li><a>·</a></li>
+                    <li><a href="<?=BASE_URL?>listing/byyear">by YEAR</a></li>
+                    <li><a>·</a></li>
+                    <li><a href="<?=BASE_URL?>listing/byname">by Name</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!-- End Navigation
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
