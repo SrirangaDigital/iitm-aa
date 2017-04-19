@@ -81,7 +81,7 @@
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>listing/byyear">by YEAR</a></li>
                     <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>listing/byname">by Name</a></li>
+                    <li><a href="<?=BASE_URL?>listing/byname">by NAME</a></li>
                 </ul>
             </div>
         </div>
