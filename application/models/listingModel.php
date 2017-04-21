@@ -13,7 +13,7 @@ class listingModel extends Model {
 		$dbh = $this->db->connect(DB_NAME);
 		if(is_null($dbh))return null;
 		
-		$sth = $dbh->prepare('SELECT * FROM ' . METADATA_TABLE_L1 . ' ORDER BY year_awarded');
+		$sth = $dbh->prepare('SELECT * FROM ' . METADATA_TABLE_L1 . ' ORDER BY name');
 		
 		$sth->execute();
 		$data = array();
