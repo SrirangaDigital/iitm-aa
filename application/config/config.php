@@ -5,7 +5,8 @@ define('PUBLIC_URL', BASE_URL . 'public/');
 define('XML_SRC_URL', BASE_URL . 'md-src/xml/');
 define('PHOTO_URL', PUBLIC_URL . 'Awardees/');
 define('DOWNLOAD_URL', PUBLIC_URL . 'Downloads/');
-define('FLAT_IMAGE_URL', PUBLIC_URL . 'images/flat/');
+define('PROFILE_IMAGE_URL', PUBLIC_URL . 'images/Profile_Photo/');
+define('AVATAR_IMAGE_URL', PUBLIC_URL . 'images/Avatar/');
 define('STOCK_IMAGE_URL', PUBLIC_URL . 'images/stock/');
 define('RESOURCES_URL', PUBLIC_URL . 'Photos/');
 
