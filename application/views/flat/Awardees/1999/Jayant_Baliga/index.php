@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Jayant Baliga</h1>
 			<h2>Awarded: 1999</h2>
-			<img src="<?=FLAT_IMAGE_URL?>1999/Jayant_Baliga.jpg" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>1999/Jayant_Baliga.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Distinguished University Professor &amp; Director, Power Semiconductor Research Center, NC State University, USA</span>
 				<br />
