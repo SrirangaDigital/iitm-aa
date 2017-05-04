@@ -224,7 +224,6 @@ a.moretag {
     margin: 0 0 26px;
     text-align: left;
     width: 100%;
-    border: 1px solid #efefef;
 }
 .post a{
     color: inherit;
@@ -233,8 +232,19 @@ a.moretag {
     width: 100%;
 }
 .post .image-desc {
-    padding: 15px;
-    margin-bottom: 0;
+    padding: 0px 10px 10px 10px;
+    width: 300px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.trule{
+	height:1px;
+	background:-moz-linear-gradient(left, #FFFFFF 0%,black 50%,#FFFFFF 100%);
+	background:-webkit-linear-gradient(left, #FFFFFF 0%,black 50%,#FFFFFF 100%);
+	background:linear-gradient(left, #FFFFFF 0%,black 50%,#FFFFFF 100%);
+	width: 80%;
+	margin: 1em auto 1em auto;
 }
 .image-desc > strong:empty{
     display: none;
