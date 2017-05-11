@@ -52,6 +52,19 @@ $(document).ready(function() {
 
 // Masonry layout
 
+
+jQuery(window).load(function () {
+
+    buildMasonry();
+
+    // This code fires every time a user resizes the screen and only affects .post elements
+    // whose parent class isn't .container. Triggers resize first so nothing looks weird.
+    
+    jQuery(window).bind('resize', buildMasonry()).trigger('resize');
+    
+});
+
+
 jQuery(window).load(function () {
 
 
