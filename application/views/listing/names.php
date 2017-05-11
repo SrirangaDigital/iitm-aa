@@ -7,7 +7,9 @@ $(document).ready(function(){
             url: url,
             type: "GET",
             beforeSend: function(){
-                $('#loader-icon').show();
+				if ($(window).scrollTop() >= ($(document).height() - $(window).height()) * 0.9){
+					$('#loader-icon').show();
+				}
             },
             complete: function(){
                 $('#loader-icon').hide();
