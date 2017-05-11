@@ -22,17 +22,6 @@ class viewHelper extends View {
         return '';
     }
 
-    public function getPhotoCount($id = '') {
-
-        $count = sizeof(glob(PHY_PHOTO_URL . $id . '/*.json'));
-        return ($count > 1) ? $count . ' Photographs' : $count . ' Photograph';
-    }
-
-    public function getActualID($combinedID) {
-
-        return preg_replace('/^(.*)__/', '', $combinedID);
-    }
-    
     public function includeThumbnail($name = '',$year_awarded='') {
 
         return PROFILE_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg";

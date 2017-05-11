@@ -13,15 +13,27 @@ class listing extends Controller {
 	}
 
 	public function byyear() {
-
+		
 		$data = $this->model->listYears();
 		($data) ? $this->view('listing/years', $data) : $this->view('error/index');
 	}
 	
 	public function byname() {
-
-		$data = $this->model->listNames();
-		($data) ? $this->view('listing/names', $data) : $this->view('error/index');
+		
+		$data = $this->model->getGetData();
+		unset($data['url']);
+		
+		if(!(isset($data["page"]))){
+			$data["page"] = 1;
+		}
+		
+		$result = $this->model->listNames($data);
+		
+		if($data["page"] == 1)
+			($result) ? $this->view('listing/names', $result) : $this->view('error/index');
+			
+		else
+			echo json_encode($result);
 	}
 
 	public function awardees($year_awarded = '') {
