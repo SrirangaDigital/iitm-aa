@@ -240,9 +240,9 @@ a.moretag {
 }
 .trule{
 	height:1px;
-	background:-moz-linear-gradient(left, #FFFFFF 0%,black 50%,#FFFFFF 100%);
-	background:-webkit-linear-gradient(left, #FFFFFF 0%,black 50%,#FFFFFF 100%);
-	background:linear-gradient(left, #FFFFFF 0%,black 50%,#FFFFFF 100%);
+	background:-moz-linear-gradient(left, #FFFFFF 0%,#1976D2 50%,#FFFFFF 100%);
+	background:-webkit-linear-gradient(left, #FFFFFF 0%,#1976D2 50%,#FFFFFF 100%);
+	background:linear-gradient(left, #FFFFFF 0%,#1976D2 50%,#FFFFFF 100%);
 	width: 80%;
 	margin: 1em auto 1em auto;
 }
