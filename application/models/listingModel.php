@@ -14,6 +14,8 @@ class listingModel extends Model {
 		
 		$page = $pagedata["page"];
 		
+		if($page == 1) $perPage = 8;
+		
 		$start = ($page-1) * $perPage;
 		
 		if($start < 0) $start = 0;
