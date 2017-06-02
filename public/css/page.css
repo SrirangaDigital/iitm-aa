@@ -228,9 +228,6 @@ a.moretag {
 .post a{
     color: inherit;
 }
-.post img {
-    width: 100%;
-}
 .post .image-desc {
     padding: 0px 10px 10px 10px;
     width: 300px;
@@ -942,7 +939,7 @@ button.toggle-button{
   display: inline-block;
   background-color: #1565C0;
   padding: 15px 30px;
-  margin: 0 20px;
+  margin: 15px 20px 0px 20px;
   border-radius: 3px;
   line-height: 45px;
  }
