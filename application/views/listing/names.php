@@ -16,6 +16,7 @@ $(document).ready(function(){
             },
             success: function(data){
                 processing = true;
+                $('#loader-icon').hide();
                 // console.log(data);
                 var gutter = parseInt(jQuery('.post').css('marginBottom'));
                 var $grid = $('#posts').masonry({

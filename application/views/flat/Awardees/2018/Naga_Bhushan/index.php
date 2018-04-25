@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 main">
+			<h1>Dr. Naga Bhushan (Nagabhushana T. Sindhushayana)</h1>
+			<h2>Awarded: 2018</h2>
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Naga_Bhushan.jpg" class="profile-thumb" alt="profile picture" />
+			<p class="affiliation">
+				<span>Vice President, Technology, Qualcomm Inc., USA</span><br /><span>1989/BT/EE</span>
+			</p>
+			<p>Dr. Naga Bhushan graduated from IIT Madras in 1989 with a Bachelor’s degree in Electrical Engineering. Later, he obtained a Master’s and Ph.D. in Electrical Engineering from Cornell University in Ithaca, New York. With more than two decades of contributions in the telecommunications sector, he is responsible for advancement of communication theory and for innovative implementation leading to the commercial realization of Broadband Wireless Technologies such as 3G (EV-DO) and 4G (UMB, LTE, LTE-A, LTE-U). His role as the Vice President, Technology at Qualcomm Inc. places him at the helm of technologies that are the bedrock of the current smartphone revolution.</p>
+			<p>Dr. Naga Bhushan has made significant and innovative technical contributions to the design and development of EV-DO, the first high-rate, wide-area wireless packet data system to be widely commercialized. His main areas of contribution include waveform design, channel coding and modulation schemes, antenna diversity schemes, link adaptation techniques, handoff algorithms, power control, QoS-aware scheduling algorithm and the functional architecture of the forward link demodulator. He has led the design and standardization of the OFDM-based broadcast/multicast service for EV-DO, and of a OFDMA-based wide-band wireless packet data system (UMB) in the 3GPP2 standards forum. He has actively contributed to R&D efforts involving Interference Management/Cancellation, Heterogeneous Networks, Multi-hop/relays, Ultra-dense networks for LTE-Advanced, LTE for unlicensed spectrum (LAA/eLAA) and direct (peer-to-peer) communication, and New Radio for 5G wireless systems (including mm-Wave bands). He has developed key insights and identified the main design elements that formed the basis of the systems mentioned above.</p>
+			<p>Dr. Naga Bhushan has published his research and findings in 26 international journals and conferences, and has more than 300 issued US patents spanning 3G, 4G and 5G wireless systems, with over 150 active patent applications. Notable awards and recognitions conferred upon him include a 2 Qualstar (Qualcomm Internal) Award for EV-DO Rev. A (Systems Lead) and cdma2000 Phase 2 Evolution (Design Evaluation and Standards Lead).  His active role in the industry has not kept him away from academia, as he has worked in collaboration with Professors from UC Berkeley, Cornell, IISc and University of Cairo, among others. As part of his service to the community, he has served as an Adjunct Faculty for Amrita University, Coimbatore for 5 years, offering a Master’s level course titled 'MIMO Communication Systems' and conducting online lectures for the same.</p>
+			<p>For his groundbreaking innovations in telecommunication technology, IIT Madras and its alumni are proud to confer this award upon Dr. Naga Bhushan.</p>
+		</div>
+	</div>
+</div>
