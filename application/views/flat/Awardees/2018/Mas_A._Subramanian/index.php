@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Mas A. Subramanian</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Mas_A._Subramanian.jpg" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Mas_A._Subramanian.JPG" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Milton Harris Chair Professor of Materials Science, Oregon State University, USA</span><br /><span>1982/PhD/CY</span>
 			</p>

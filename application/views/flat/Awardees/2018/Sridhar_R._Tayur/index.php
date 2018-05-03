@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Sridhar R. Tayur</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Sridhar_R._Tayur.jpg" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Sridhar_R._Tayur.JPG" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Ford Distinguished Research Professor of Operations Management, Tepper School of Business, Carnegie Mellon University, USA</span><br /><span>1986/BT/ME</span>
 			</p>

@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Sudhir Kumar Mishra</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Sudhir_Kumar_Mishra.jpg" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Sudhir_Kumar_Mishra.JPG" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Distinguished Scientist &amp; Director General (BrahMos), DRDO, Ministry of Defence, Govt. of India, and CEO &amp; MD, BrahMos Aerospace, New Delhi.</span><br /><span>1996/MT/ME</span>
 			</p>

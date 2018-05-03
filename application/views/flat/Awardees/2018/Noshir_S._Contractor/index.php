@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Noshir S. Contractor</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Noshir_S._Contractor.jpg" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Noshir_S._Contractor.JPG" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Jane S. &amp; William J. White Professor of Behavioral Sciences, Northwestern University, USA</span><br /><span>1983/BT/EE</span>
 			</p>

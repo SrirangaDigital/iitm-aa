@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Shri Lazar T. Chitilappilly</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Lazar_T._Chitilappilly.jpg" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Lazar_T._Chitilappilly.JPG" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Project Director, ABPP, VSSC / ISRO Trivandrum</span><br /><span>1983/BT/AE</span>
 			</p>
