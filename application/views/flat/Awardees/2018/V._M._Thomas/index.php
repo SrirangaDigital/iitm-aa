@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Shri. V. M. Thomas</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/V._M._Thomas.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/V._M._Thomas.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Joint Managing Director, Johnson Lifts Pvt. Ltd., Chennai</span><br /><span>1973/BT/ME</span>
 			</p>

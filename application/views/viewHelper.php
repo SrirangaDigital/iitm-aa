@@ -29,7 +29,7 @@ class viewHelper extends View {
     }
     public function includeAvatarPhotos($name = '',$year_awarded='') {
 
-        return AVATAR_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg";
+        return AVATAR_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg?v=1";
 
     }
 

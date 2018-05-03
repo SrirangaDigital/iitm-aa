@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Kanianthra Mani Chandy</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Kanianthra_Mani_Chandy.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Kanianthra_Mani_Chandy.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Emeritus Professor, California Institute of Technology, USA</span><br /><span>1965/BT/EE</span>
 			</p>

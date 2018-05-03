@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Seeram Ramakrishna</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Seeram_Ramakrishna.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Seeram_Ramakrishna.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Professor and Director, Center for Nanofibers and Nanotechnology, Dept. of Mechanical Engineering, National University of Singapore, Singapore</span><br /><span>1988/MT/Aircraft Production (ME)</span>
 			</p>

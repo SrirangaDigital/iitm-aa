@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Naga Bhushan (Nagabhushana T. Sindhushayana)</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Naga_Bhushan.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Naga_Bhushan.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Vice President, Technology, Qualcomm Inc., USA</span><br /><span>1989/BT/EE</span>
 			</p>

@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. Giridhar Madras</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Giridhar_Madras.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Giridhar_Madras.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Professor of Chemical Engineering, Indian Institute of Science, Bangalore</span><br /><span>1990/MT/CH</span>
 			</p>

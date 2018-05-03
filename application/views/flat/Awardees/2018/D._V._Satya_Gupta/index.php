@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Dr. D. V. Satya Gupta</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/D._V._Satya_Gupta.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/D._V._Satya_Gupta.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Technology Fellow, Baker Hughes, USA</span><br /><span>1974/BT/CH</span>
 			</p>

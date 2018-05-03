@@ -3,7 +3,7 @@
 		<div class="col-md-12 main">
 			<h1>Shri Rajesh Jha</h1>
 			<h2>Awarded: 2018</h2>
-			<img src="<?=PROFILE_IMAGE_URL?>2018/Rajesh_Jha.JPG" class="profile-thumb" alt="profile picture" />
+			<img src="<?=PROFILE_IMAGE_URL?>2018/Rajesh_Jha.jpg" class="profile-thumb" alt="profile picture" />
 			<p class="affiliation">
 				<span>Executive Vice President, Office Product Group, Microsoft Corp., USA</span><br /><span>1988/BT/CS</span>
 			</p>
