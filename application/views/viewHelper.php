@@ -24,12 +24,12 @@ class viewHelper extends View {
 
     public function includeThumbnail($name = '',$year_awarded='') {
 
-        return PROFILE_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg";
+        return PROFILE_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg?v=1";
 
     }
     public function includeAvatarPhotos($name = '',$year_awarded='') {
 
-        return AVATAR_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg?v=1";
+        return AVATAR_IMAGE_URL . $year_awarded . "/" . str_replace(' ', '_', $name) . ".jpg?v=2";
 
     }
 
