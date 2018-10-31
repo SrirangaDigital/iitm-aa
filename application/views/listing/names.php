@@ -34,7 +34,7 @@ $(document).ready(function(){
                     displayString = displayString + '<div class="post">';    
                     displayString = displayString + 	'<a href="' + <?php echo '"' . BASE_URL . '"'; ?> + 'Awardees/'+ obj[i].year_awarded + '/' + obj[i].name.replace(/ /g, "_") + '" title="View Collection">';
                     displayString = displayString + 		'<div class="fixOverlayDiv">';
-					displayString = displayString + 			'<img class="img-responsive" src="' + avatar_url + obj[i].year_awarded + '/' + obj[i].name.replace(/ /g, "_") + '.jpg?v=1">';
+					displayString = displayString + 			'<img class="img-responsive" src="' + avatar_url + obj[i].year_awarded + '/' + obj[i].name.replace(/ /g, "_") + '.jpg?v=2">';
                     displayString = displayString + 		'</div>';
                     displayString = displayString + 		'<p class="image-desc">';
 					displayString = displayString + 			'<strong>' + obj[i].info + '</strong>';
