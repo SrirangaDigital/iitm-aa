@@ -1,0 +1,20 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-12 main">
+			<h1>Shri Puttige Ramadas </h1>
+			<h2>Awarded: 2019</h2>
+			<img src="<?=PROFILE_IMAGE_URL?>2019/Puttige_Ramadas.jpg" class="profile-thumb" alt="profile picture" />
+			<p class="affiliation">
+				<span>Managing Director, Ace Manufacturing Systems Limited,India.</span><br /><span>1970/M.Tech/ME</span>
+			</p>
+			<p>Shri Puttige Ramadas obtained his B.E. in mechanical engineering from Karnataka Regional Engineering College (KREC), Surathkal (today's NITK) in 1968. He did his M.Tech. in Machine Tools from IIT Madras, in 1970.</p>
+			<p>He started his career as a Design Engineer in Machine Tool Company of India, HMT Bangalore and was a member of the first NC Lathe Design team in 1972 – 73. He was the recipient of the first “Best Design” Award given to the best machine tool design for a machine exhibited in the Indian Machine Tool Exhibition (IMTEX) 1979, for the Slant Bed CNC Lathe. He also led a design team to design and develop the first CNC Cylindrical Grinding Machine. He has presented many papers in the AIMTDR conferences. After serving HMT for 13 years, he joined MMC, Calcutta as their Chief Design Engineer for a year.</p>
+			<p>He joined Widia India Ltd in 1984 (presently Kennametal India Limited) in Bangalore to start their Special Purpose Machine Tool (SPM) Division where he developed many machine tools like CNC Lathes, Machining Centres, Deep Hole Drilling Machines, Creep Feed Grinding Machines, an array of SPMs and 6 Axes Tool and Cutter Grinders. During his leadership, Widia SPM Division (WIDMA) got the “Best Exhibit” award in IMTEX 1986 and, “Best Design” and “Best Exhibit” award in 1989 IMTEX, thus in 1990 making Widia the Leader in the manufacture of SPMs in India. He later joined Mysore Kirloskar Ltd, Harihar, as their Vice President – Engineering where he upgraded the features of many CNC Machines and developed many new products.</p>
+			<p>He started ACE Manufacturing Systems Ltd. (AMS) along with the promoters of ACE Designers Ltd. (the undisputed leader in manufacturing CNC Turning Centres in India) to produce Machining Centres in 1994. Under his leadership, AMS received the “Best Design” and “Best Exhibit” awards in four consecutive IMTEX exhibitions since 1995 till 2002.  Due to his strong conviction and vision, AMS is the largest manufacturer of Vertical Machining Centres in the country and has become the most successful Machine Tool Company in India with more than 30% average annual growth. It is on its way to becoming a strong player in the International market.</p>
+			<p>Apart from the above, AMS has received many awards, including “Best Supplier” award from Honda Motorcycle & Scooters Ltd., Royal Enfield as well as many others.</p>
+			<p>Shri Ramadas has been honoured with various awards during his professional life. Recently he became the first person to be honoured with the “Kaigarika Ratna” award from Karnataka Small Scale Industries Association (KASSIA). He was honoured with “IMTMA-Premier Outstanding Entrepreneur award”, by Indian Machine Tool Manufacturers Association (IMTMA). He is the first Industrialist born and brought up in Karnataka to get this award and recognition. He is presently the President of Indian Machine Tool Manufacturers Association (IMTMA), a national level organisation of Machine Tool Builders in the country. He is on the Governing Council of educational institutions, like PESIT University, Bangalore, Madhya Vadiraja Insitute of Technology, Bantakal, Udupi. He has instituted a chair in Mechanical Engineering, IIT Madras to promote Research, Design and Manufacturing of Machine Tools in 2017 with a grant of Rs 50 lakhs.</p>
+			<p>He was awarded the “Karnataka Rajyothsava Award 2018”, by Govt of Karnataka on 29th November 2018 for his contribution to the society.</p>
+			<p>For his exceptional achievements in the field of Machine Tools and his contributions as the MD of AMS, IIT Madras and its alumni are proud to confer this award upon Shri Puttige Ramadas.</p>
+		</div>
+	</div>
+</div>
