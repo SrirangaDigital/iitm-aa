@@ -11,6 +11,7 @@
                 <p>View Distinguished Alumin Awardees</p>
                 <a class="selection-btn" href="<?=BASE_URL?>listing/byyear">by Year</a>  
                 <a class="selection-btn" href="<?=BASE_URL?>listing/byname">by Name</a>        
+                <a class="selection-btn" href="<?=BASE_URL?>listing/bybatch">by Batch</a>        
             </div>
         </div>
     </div>

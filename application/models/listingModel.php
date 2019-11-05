@@ -45,6 +45,7 @@ class listingModel extends Model {
 		
 		return $data;
 	}
+
 	public function listYears() {
 
 		$dbh = $this->db->connect(DB_NAME);
@@ -61,6 +62,24 @@ class listingModel extends Model {
 		}
 		$dbh = null;
 		return $data;
+	}	
+
+	public function listBatchYears() {
+
+		$dbh = $this->db->connect(DB_NAME);
+		if(is_null($dbh))return null;
+		
+		$sth = $dbh->prepare('SELECT batch_details FROM ' . METADATA_TABLE_L1 . ' ORDER BY batch_details');
+		
+		$sth->execute();
+		$data = array();
+		
+		while($result = $sth->fetch(PDO::FETCH_OBJ)) {
+
+			array_push($data, preg_split('/\//',$result->batch_details)[0]);
+		}
+		$dbh = null;
+		return array_unique($data);
 	}
 
 	public function listAwardeesInYear($year_awarded = ''){
@@ -71,6 +90,24 @@ class listingModel extends Model {
 		$sth = $dbh->prepare('SELECT * FROM ' . METADATA_TABLE_L1 . ' WHERE year_awarded = ? ORDER BY name');
 		
 		$sth->execute(array($year_awarded));
+		$data = array();
+		
+		while($result = $sth->fetch(PDO::FETCH_OBJ)) {
+
+			array_push($data, $result);
+		}
+		$dbh = null;
+		return $data;		
+	}	
+
+	public function listAwardeesInABatch($batch_details = ''){
+
+		$dbh = $this->db->connect(DB_NAME);
+		if(is_null($dbh))return null;
+
+		$sth = $dbh->prepare('SELECT * FROM ' . METADATA_TABLE_L1 . ' WHERE batch_details like "%'. $batch_details .'%" ORDER BY name');
+		
+		$sth->execute();
 		$data = array();
 		
 		while($result = $sth->fetch(PDO::FETCH_OBJ)) {

@@ -36,6 +36,18 @@ class listing extends Controller {
 			echo json_encode($result);
 	}
 
+	public function bybatch() {
+		
+		$data = $this->model->listBatchYears();
+		($data) ? $this->view('listing/batch', $data) : $this->view('error/index');
+	}	
+
+	public function batch($batch_details = '') {
+		
+		$data = $this->model->listAwardeesInABatch($batch_details);
+		($data) ? $this->view('listing/awardeesinabatch', $data) : $this->view('error/index');
+	}
+
 	public function awardees($year_awarded = '') {
 
 		$data = $this->model->listAwardeesInYear($year_awarded);
