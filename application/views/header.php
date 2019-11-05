@@ -81,7 +81,7 @@
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>listing/byyear">Year of Award</a></li>
                     <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>listing/byname">by Name</a></li>
+                    <li><a href="<?=BASE_URL?>listing/byname">Name</a></li>
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>listing/bybatch">Year of Graduation</a></li>
                 </ul>

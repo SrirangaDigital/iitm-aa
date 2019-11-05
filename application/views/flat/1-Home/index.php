@@ -10,7 +10,7 @@
                 <p><img src="<?=PUBLIC_URL?>images/stock/IAR_logo.png" alt="IISER Bhopal Logo" /></p>
                 <p>View Distinguished Alumin Awardees</p>
                 <a class="selection-btn" href="<?=BASE_URL?>listing/byyear">Year of Award</a>  
-                <a class="selection-btn" href="<?=BASE_URL?>listing/byname">by Name</a>        
+                <a class="selection-btn" href="<?=BASE_URL?>listing/byname">Name</a>        
                 <a class="selection-btn" href="<?=BASE_URL?>listing/bybatch">Year of Graduation</a>        
             </div>
         </div>
