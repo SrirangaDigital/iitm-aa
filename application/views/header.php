@@ -77,13 +77,13 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <ul class="list-inline sub-nav">
-                    <li><a href="<?=BASE_URL?>">HOME</a></li>
+                    <li><a href="<?=BASE_URL?>">Home</a></li>
                     <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>listing/byyear">by YEAR</a></li>
+                    <li><a href="<?=BASE_URL?>listing/byyear">Year of Award</a></li>
                     <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>listing/byname">by NAME</a></li>
+                    <li><a href="<?=BASE_URL?>listing/byname">by Name</a></li>
                     <li><a>·</a></li>
-                    <li><a href="<?=BASE_URL?>listing/bybatch">by BATCH</a></li>
+                    <li><a href="<?=BASE_URL?>listing/bybatch">Year of Graduation</a></li>
                 </ul>
             </div>
         </div>
